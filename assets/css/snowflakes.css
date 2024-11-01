@@ -1,0 +1,22 @@
+/**
+ * Contains all the styles that apply to the Snow Flakes
+ * plugin.
+ * This file has been built with love and care.
+ *
+ * @package   Snow Flakes
+ * @author    David Buss - PDERAS Consulting Group Inc.
+ * @version   1.1
+ * @license   GPLv2
+ */
+
+#snowflakes-wrapper {
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    z-index: 999;
+}
+
+#snowflakes-wrapper > .snowflake {
+    position: absolute;
+    z-index: 999;
+}
